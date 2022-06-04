@@ -1,1 +1,1 @@
-## Задача1 Project Sample
+## Задача1: Project Sample [![Build status](https://ci.appveyor.com/api/projects/status/ygnnwtmca2wt06mf?svg=true)](https://ci.appveyor.com/project/Gabr12el/auto2aqa-code-t7kgb)
