@@ -19,7 +19,7 @@ class MobileBankApiTestV1 {
                 .then()
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
-                .body("every {it.currency == 'RUR' || it.currency == 'USD'}", is (true))
+                .body("every {it.currency == 'RUB' || it.currency == 'USD'}", is (true))
         //или этак или так никаких RUR но RUR мне роднее(если вы понимаете о чём я)
         ;
     }
